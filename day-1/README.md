@@ -1,4 +1,4 @@
-# Band Name Generator
+# Day-1
 
 5. print func
 7. newline "\n"
@@ -18,6 +18,8 @@
 > 10+9+10+9 = 38 
 
 ### Final Project - Band Name Generator
-
 Inputs = birth city name and pet name
 Output = Random combinational Name
+
+#### Fix - Status 
+- need fix 
