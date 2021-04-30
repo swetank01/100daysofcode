@@ -3,7 +3,9 @@
 ## Lessons
 
 27. if-else
-28. nested-if-else and if-elif-else
+28. nested-if-else and 
+33. if-elif-else
+34. logical operator
 
 ## Challenge
 

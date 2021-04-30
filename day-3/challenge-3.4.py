@@ -1,12 +1,39 @@
-# Leaf Year
+# Pizza Order
 
-### Don't Change
-year = int(input("Which year do you want to check? "))
-### Don't Change
+### Don;t Change this
+print("Welcome to Python Pizza Deliveries! ")
+size = input("What size pizza do you want? (S, M, or L) :")
+add_pepperoni = input("Do you want pepperoni? (Y or N) :")
+extra_cheese = input("Do you want extra cheese? (Y or N) :")
+### Don;t Change this
 
-year_mod = year % 4
+# Write your code below this line 👇
 
-if year_mod == 0:
-    print(f"{year} is a LeaF Year.")
+bill = 0
+if size == "S":
+    bill += 15
+elif size == "M":
+    bill += 20
+elif size == "L":
+    bill += 25
 else:
-    print(f"{year} is not a Leaf Year.")
+    print("wrong input") 
+
+if add_pepperoni == "Y":
+    if(size == "S"):
+        bill += 2
+    elif(size == "M" or size == "L"):
+        bill += 3
+    else:
+        print("Wrong input")
+else:
+    bill += 0
+
+if extra_cheese == "Y":
+    bill += 1
+elif extra == "N":
+    bill += 0
+else:
+    print("Wrong Input")
+
+print(f"your Final Bill is: ${bill}.")
