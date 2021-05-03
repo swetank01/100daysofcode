@@ -4,6 +4,9 @@ Randomisation and Python List
 ## Lessons:
 - random module
 - list
+- split()
+- nested list
+- 
 
 ## Challenge:
 
